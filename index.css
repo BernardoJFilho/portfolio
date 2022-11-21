@@ -11,9 +11,8 @@ body {
 }
 
 #tudo {
-    width: 50%;
-    height: 200px;
-    overflow: auto;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     z-index: 2;
 }
@@ -26,8 +25,19 @@ body {
     left: 0px;
 }
 
-.links {
-    position: absolute;
-    z-index: 3;
+#scroll {
+    width: 492px;
+    height: 200px;
+    overflow: auto;
 
+}
+
+li:hover {
+    text-align: center;
+    background-color: aquamarine;
+    transition: 50%;
+}
+
+li:active {
+    color: blueviolet;
 }
