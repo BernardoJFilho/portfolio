@@ -9,3 +9,10 @@ body {
 .lista {
     font-size: 17px;
 }
+
+#tudo {
+    background-color: #9dd9d2;
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+}
