@@ -11,8 +11,23 @@ body {
 }
 
 #tudo {
-    background-color: #9dd9d2;
     width: 50%;
     height: 200px;
     overflow: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.mikaela {
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+    width: 500px;
+    left: 0px;
+}
+
+.links {
+    position: absolute;
+    z-index: 3;
+
 }
